@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function daat() {
+            const now = new Date();
+            const hours = now.getHours();
+            const minutes = now.getMinutes();
+            const seconds = now.getSeconds();
+            alert(`Текущее время:\n${hours}:${minutes}:${seconds}`);
+        }
+    </script>   
+</head>
+
+<body>
+    <button type="button" onclick="daat()">Текущее время</button>
+
+    <script>
+        function myFunction() {
+            for (let i = 0; i < 5; i++) {
+                document.write("Скороход" + " " + "Виталий" + "<br>");
+
+            }
+
+        }
+    </script>
+    <button type="button" onclick="myFunction()">Задание 2</button>
+    <script>
+        function zad3() {
+            let arr = [1, 5, 8, 9, 4, 3, 7, 8];
+            let oddCount = 0; 
+
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] % 2 == 0) {
+                    oddCount++; 
+
+                }
+            }
+
+            alert("Количество четных элементов: " + oddCount);  
+
+        }
+    </script>
+    <button type="button" onclick="zad3()">Задание 3</button>
+    <button type="button" onclick="lol()">Задание 4</button>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

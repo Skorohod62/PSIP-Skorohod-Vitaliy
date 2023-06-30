@@ -1,0 +1,11 @@
+@import url('style1.css');
+
+body { /* Атрибут body */
+    background-image: url("qwe.jpg");
+    background-repeat: repeat-x;
+    font-family: Arial;/* Шрифт текста Arial */
+    font-size: 45%;/* Размер текста 10% */
+    color: green;/* Цвет текста зелёный */
+  }
+
+
